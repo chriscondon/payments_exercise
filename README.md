@@ -1,13 +1,10 @@
-OpenFEC API allows you to explore the way candidates and committees fund their campaigns.
-
-The API is a RESTful web service supporting full-text and field-specific searches on FEC data.This API allows you to explore the vast array of campaign finance data that the FEC collects. Each endpoint focuses on a different aspect of disclosure. Information is tied to the underlying forms by file ID and image ID.
+## Payments Exercise
 
 Base URI:     https://localhost:3000/
 
 HTTP Methods:    GET, POST
 
 Response format: .json
-
 
 
 
