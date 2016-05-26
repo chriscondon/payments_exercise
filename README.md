@@ -1,4 +1,4 @@
-## Payments Exercise
+# Payments Exercise
 
 Base URI:     https://localhost:3000/
 
@@ -8,7 +8,7 @@ Response format: .json
 
 
 
-## Installation
+# Installation
 
 Clone repository to local environment.
 
@@ -33,16 +33,16 @@ rspec -fd
 ```
 
 
-## Endpoints
+# Endpoints
 
-# Loans
+## Loans
 ````
 /loans/
 /loans/:id
 /loans/:id/payments
 ```
 
-# Payments
+## Payments
 
 ````
 /payments/
@@ -51,9 +51,9 @@ rspec -fd
 
 
 
-## Instructions
+# Instructions
 
-# Payments Exercise
+## Payments Exercise
 
 Add in the ability to create payments for a given loan using a JSON API call. You should store the payment date and amount. Expose the outstanding balance for a given loan in the JSON vended for `LoansController#show` and `LoansController#index`. The outstanding balance should be calculated as the `funded_amount` minus all of the payment amounts.
 
